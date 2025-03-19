@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import Offer from "./components/Offer/Offer";
-import Form from "./components/Form/Form";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Home />
       <Contact />
       <Offer />
-      <Form />
+      <Gallery />
     </div>
   );
 }
