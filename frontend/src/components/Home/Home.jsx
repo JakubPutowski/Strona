@@ -54,7 +54,7 @@ function Home() {
         {/* Zdjęcie po prawej stronie */}
         <div className="w-full md:w-[50%] flex justify-center relative">
           <img
-            src="public/images/home-image.jpg"
+            src="./images/home-image.jpg"
             alt="Zdjęcie firmy"
             className="rounded-lg shadow-lg object-cover w-full h-full"
             style={{

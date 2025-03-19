@@ -36,7 +36,7 @@ function Offer() {
           {/* Kuchnie */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="public/images/kuchnia.jpg" // Przykładowy obraz kuchni
+              src="./images/kuchnia.jpg" // Przykładowy obraz kuchni
               alt="Kuchnie"
               className="w-full h-[300px] object-cover rounded-lg"
             />
