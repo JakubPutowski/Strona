@@ -31,21 +31,21 @@ function Gallery() {
           {/* Przykładowe zdjęcia */}
           <SwiperSlide>
             <img
-              src="/src/assets/przykład1.jpg"
+              src="/images/przykład1.jpg"
               alt="Realizacja 1"
               className="object-cover w-full h-[400px] rounded-lg"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/src/assets/przykład2.jpg"
+              src="public/images/przykład2.jpg"
               alt="Realizacja 2"
               className="object-cover w-full h-[400px] rounded-lg"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
-              src="/src/assets/przykład3.jpg"
+              src="public/images/przykład3.jpg"
               alt="Realizacja 3"
               className="object-cover w-full h-[400px] rounded-lg"
             />
