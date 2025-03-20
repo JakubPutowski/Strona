@@ -6,7 +6,7 @@ function Home() {
     <section
       id="home"
       className="snap-start h-screen w-full flex items-center justify-center"
-      style={{ backgroundColor: "#0f172a" }} // Ciemny kolor jako główne tło
+      style={{ backgroundColor: "#151924" }} // Ciemny kolor jako główne tło
     >
       <div
         className="flex flex-col md:flex-row items-center justify-between w-[90%] max-w-[1400px] mx-auto"

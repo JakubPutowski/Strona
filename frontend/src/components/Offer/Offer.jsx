@@ -20,7 +20,7 @@ function Offer() {
     <section
       id="offer"
       className="snap-start h-screen w-full flex flex-col items-center justify-center"
-      style={{ backgroundColor: "#0f172a" }} // Ciemne tło
+      style={{ backgroundColor: "#151924" }} // Ciemne tło
     >
       <div className="container mx-auto px-4">
         {/* Nagłówek */}
@@ -36,7 +36,7 @@ function Offer() {
           {/* Kuchnie */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="./images/kuchnia.jpg" // Przykładowy obraz kuchni
+              src="./images/Offer/kuchnia.jpg" // Przykładowy obraz kuchni
               alt="Kuchnie"
               className="w-full h-[300px] object-cover rounded-lg"
             />
@@ -54,11 +54,14 @@ function Offer() {
           {/* Szafy wnękowe */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/wardrobe.jpg" // Przykładowy obraz szafy wnękowej
+              src="./images/Offer/szafa_wnekowa.jpg" // Przykładowy obraz szafy wnękowej
               alt="Szafy wnękowe"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Szafy wnękowe
             </h3>
             <p className="text-center text-gray-700">
@@ -69,11 +72,14 @@ function Offer() {
           {/* Garderoby */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/closet.jpg" // Przykładowy obraz garderoby
+              src="./images/Offer/garderoba.jpg" // Przykładowy obraz garderoby
               alt="Garderoby"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Garderoby
             </h3>
             <p className="text-center text-gray-700">
@@ -84,11 +90,14 @@ function Offer() {
           {/* Meble łazienkowe */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/bathroom.jpg" // Przykładowy obraz mebli łazienkowych
+              src="./images/Offer/meble_lazienkowe.jpg" // Przykładowy obraz mebli łazienkowych
               alt="Meble łazienkowe"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Meble łazienkowe
             </h3>
             <p className="text-center text-gray-700">
@@ -99,11 +108,14 @@ function Offer() {
           {/* Meble biurowe */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/office.jpg" // Przykładowy obraz mebli biurowych
+              src="./images/Offer/meble_biurowe.jpg" // Przykładowy obraz mebli biurowych
               alt="Meble biurowe"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Meble biurowe
             </h3>
             <p className="text-center text-gray-700">
@@ -114,11 +126,14 @@ function Offer() {
           {/* Zabudowy sypialni */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/bedroom.jpg" // Przykładowy obraz zabudowy sypialni
+              src="./images/Offer/sypialnia.jpg" // Przykładowy obraz zabudowy sypialni
               alt="Zabudowy sypialni"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Zabudowy sypialni
             </h3>
             <p className="text-center text-gray-700">
@@ -129,11 +144,14 @@ function Offer() {
           {/* Inne meble na wymiar */}
           <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
             <img
-              src="/src/assets/custom.jpg" // Przykładowy obraz niestandardowych mebli
+              src="./images/Offer/meble_na_wymiar.jpg" // Przykładowy obraz niestandardowych mebli
               alt="Meble na wymiar"
               className="w-full h-[300px] object-cover rounded-lg"
             />
-            <h3 className="text-xl font-bold mt-4" style={{ color: "#0f172a" }}>
+            <h3
+              className="text-xl font-bold mt-4 text-center"
+              style={{ color: "#0f172a" }}
+            >
               Meble na wymiar
             </h3>
             <p className="text-center text-gray-700">

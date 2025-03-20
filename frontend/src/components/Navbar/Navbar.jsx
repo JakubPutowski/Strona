@@ -6,7 +6,7 @@ function Navbar() {
     <nav
       className="fixed top-0 left-0 right-0 w-full p-4 shadow-lg z-10 border-"
       style={{
-        backgroundColor: "#0f172a",
+        backgroundColor: "#151924",
         color: "#ede9fe",
         borderBottom: "1px solid #fbbf24",
       }} // Ciemne tło i biały tekst

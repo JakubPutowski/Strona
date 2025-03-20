@@ -2,17 +2,18 @@ import React from "react";
 import "./Contact.css";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
 function Contact() {
   return (
     <section
       id="contact"
       className="snap-start h-screen w-full flex items-center justify-center"
-      style={{ backgroundColor: "#0f172a" }} // Ciemny kolor jako główne tło
+      style={{ backgroundColor: "#151924" }} // Ciemny kolor jako główne tło
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         {/* Lewa kolumna */}
-        <div className="w-full md:w-1/2 space-y-6 text-white">
+        <div className="w-full md:w-[40%] space-y-6 text-white bg-[#151924] p-6 rounded-lg shadow-lg">
           {" "}
           {/* Tekst biały */}
           <h2 className="text-4xl font-bold" style={{ color: "#fbbf24" }}>
@@ -47,17 +48,22 @@ function Contact() {
           {/* Email i numer telefonu */}
           <div>
             <p className="text-lg font-semibold">Kontakt:</p>
-            <a
-              href="mailto:info@putowski.pl"
-              style={{ color: "#fbbf24" }} // Żółty kolor linku
-              className="hover:underline"
-            >
-              info@putowski.pl
-            </a>
-            <br />
-            <p style={{ color: "#fbbf24" }} className="font-bold text-lg">
-              888-201-504, 888-201-505
-            </p>
+            <div className="flex items-center space-x-2">
+              <BsFillTelephoneFill style={{ color: "#fbbf24" }} />
+              <a
+                href="mailto:info@putowski.pl"
+                style={{ color: "#fbbf24" }}
+                className="hover:underline"
+              >
+                info@putowski.pl
+              </a>
+            </div>
+            <div className="flex items-center space-x-2">
+              <BsFillTelephoneFill style={{ color: "#fbbf24" }} />
+              <p style={{ color: "#fbbf24" }} className="font-bold text-lg">
+                888-201-504, 888-201-505
+              </p>
+            </div>
           </div>
           {/* Ikony social media */}
           <div className="flex space-x-4 mt-6">
@@ -119,12 +125,13 @@ function Contact() {
         </div>
 
         {/* Prawa kolumna */}
-        <div className="w-full md:w-1/2 flex justify-end mt-8 md:mt-0">
+        <div className="w-full md:w-[60%] flex justify-left mt-8 md:mt-0">
           {/* Obraz koperty */}
           <img
-            src="/images/envelope.png" // Upewnij się, że obraz koperty znajduje się w folderze public/images
+            src="./images/koperta.jpg" // Upewnij się, że obraz koperty znajduje się w folderze public/images
             alt="Koperta"
-            className="max-w-sm md:max-w-md object-contain"
+            className="max-w-md md:max-w-lg object-contain"
+            style={{ marginLeft: "auto" }}
           />
         </div>
       </div>
