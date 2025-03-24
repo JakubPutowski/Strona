@@ -43,11 +43,11 @@ function Offer() {
         {/* Slider */}
         <Slider {...settings}>
           {/* Kuchnie */}
-          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg h-[400px]">
             <img
               src="./images/Offer/kuchnia.jpg"
               alt="Kuchnie"
-              className="w-full h-[300px] md:h-[250px] lg:h-[350px] object-cover rounded-lg"
+              className="w-full h-[250px] object-cover rounded-lg"
             />
             <h3 className="text-xl font-bold mt-4 text-center text-[#0f172a]">
               Kuchnie
@@ -58,11 +58,11 @@ function Offer() {
           </div>
 
           {/* Szafy wnękowe */}
-          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg h-[400px]">
             <img
               src="./images/Offer/szafa_wnekowa.jpg"
               alt="Szafy wnękowe"
-              className="w-full h-[300px] md:h-[250px] lg:h-[350px] object-cover rounded-lg"
+              className="w-full h-[250px] object-cover rounded-lg"
             />
             <h3 className="text-xl font-bold mt-4 text-center text-[#0f172a]">
               Szafy wnękowe
@@ -73,11 +73,11 @@ function Offer() {
           </div>
 
           {/* Garderoby */}
-          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg h-[400px]">
             <img
               src="./images/Offer/garderoba.jpg"
               alt="Garderoby"
-              className="w-full h-[300px] md:h-[250px] lg:h-[350px] object-cover rounded-lg"
+              className="w-full h-[250px] object-cover rounded-lg"
             />
             <h3 className="text-xl font-bold mt-4 text-center text-[#0f172a]">
               Garderoby
@@ -88,11 +88,11 @@ function Offer() {
           </div>
 
           {/* Meble łazienkowe */}
-          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-[#ede9fe] p-6 rounded-lg shadow-lg h-[400px]">
             <img
               src="./images/Offer/meble_lazienkowe.jpg"
               alt="Meble łazienkowe"
-              className="w-full h-[300px] md:h-[250px] lg:h-[350px] object-cover rounded-lg"
+              className="w-full h-[250px] object-cover rounded-lg"
             />
             <h3 className="text-xl font-bold mt-4 text-center text-[#0f172a]">
               Meble łazienkowe
