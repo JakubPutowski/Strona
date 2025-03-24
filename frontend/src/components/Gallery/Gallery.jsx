@@ -4,7 +4,6 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./Gallery.css";
 
 function Gallery() {
   return (
@@ -28,7 +27,7 @@ function Gallery() {
         <Swiper
           modules={[Navigation, Pagination]}
           spaceBetween={20}
-          slidesPerView={1} // Wyświetlanie jednego obrazu na raz domyślnie
+          slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
           loop={true}

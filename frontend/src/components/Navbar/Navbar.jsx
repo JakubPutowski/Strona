@@ -1,18 +1,13 @@
 import React, { useState } from "react";
-import "./Navbar.css";
 
 function Navbar() {
-  const [isOpen, setIsOpen] = useState(false); // Stan do kontrolowania widoczności menu
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed top-0 left-0 right-0 w-full h-16 p-4 shadow-lg z-10 border-b bg-[#151924] text-[#ede9fe] flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center h-full">
-        <img
-          src="./images/logo.jpg"
-          alt="Logo"
-          className="h-full w-auto" // H: pełna wysokość navbaru, W: proporcjonalna szerokość
-        />
+        <img src="./images/logo.jpg" alt="Logo" className="h-full w-auto" />
       </div>
 
       {/* Hamburger menu dla urządzeń mobilnych */}
@@ -41,7 +36,7 @@ function Navbar() {
       <ul
         className={`${
           isOpen ? "flex" : "hidden"
-        } md:flex flex-col md:flex-row justify-center items-center absolute md:static top-16 left-0 w-full md:w-auto bg-[#151924] md:bg-transparent space-y-4 md:space-y-0 md:space-x-8`}
+        } md:flex flex-col md:flex-row justify-center items-center absolute md:static top-16 left-0 w-full md:w-auto bg-[#151924] md:bg-transparent space-y-4 md:space-y-0 md:space-x-8 border-b border-[#fbbf24]`}
       >
         <li>
           <a

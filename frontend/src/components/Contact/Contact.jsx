@@ -1,16 +1,15 @@
 import React from "react";
-import "./Contact.css";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { MdLocationPin } from "react-icons/md"; // Ikona pineski
-import { HiOutlineMail } from "react-icons/hi"; // Ikona koperty
+import { MdLocationPin } from "react-icons/md";
+import { HiOutlineMail } from "react-icons/hi";
 
 function Contact() {
   return (
     <section
       id="contact"
-      className="snap-start h-screen w-full flex items-center justify-center bg-[#151924]  pt-6" // Ciemne tło
+      className="snap-start h-screen w-full flex items-center justify-center bg-[#151924]  pt-6"
     >
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between h-[90%]">
         {/* Lewa kolumna */}
@@ -120,8 +119,7 @@ function Contact() {
         <div className="hidden md:flex w-full md:w-[60%] justify-center mt-8 md:mt-0 h-full">
           {/* Obraz koperty */}
           <img
-            src="./images/koperta.jpg" // Upewnij się, że obraz koperty znajduje się w folderze public/images
-            alt="Koperta"
+            src="./images/koperta.jpg"
             className="max-w-md md:max-w-lg object-contain"
           />
         </div>
